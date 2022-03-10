@@ -1,0 +1,13 @@
+docker run ngnix
+docker ps
+docker ps -a
+docker stop container_name
+docker rm container_name
+docker images
+docker rmi image_name
+docker run image_name
+docker pull image_name
+docker run -d kodecloud
+docker attach docker_id_or_name
+docker run -it centos bash
+docker exec docker_id cat /etc/*release*
