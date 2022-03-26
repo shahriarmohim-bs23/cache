@@ -10,7 +10,7 @@ services:
     build: .
     depends_on:
     
-      - redis
+      - some-redis
     ports:
       - "5000:5000"
     volumes:

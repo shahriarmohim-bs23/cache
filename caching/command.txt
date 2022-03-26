@@ -1,5 +1,5 @@
 docker run -p 6379:6379 --name some-redis -d redis
-docker run -p 6379:6379 --network=masum-network --name some-redis -d redis
+docker run -p 6379:6379 --network=amar-network --name some-redis -d redis
 docker build .
-docker run -p 5000:5000  --network=masum-network 
+docker run -p 5000:5000  --network=amar-network 
 docker network create --driver=bridge my-network

@@ -20,10 +20,10 @@ cache = Cache(app)
 
 
 
-@app.route('/cache/<country>/<capital>')
-def cache_set(country, capital):
+@app.route('/home')
+def cache_set():
 
-    cache.set(country,{'country':capital})
+    
     return 'Done'
 
 @app.route('/cache/<country>')

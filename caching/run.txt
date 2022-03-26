@@ -1,0 +1,28 @@
+-tag
+docker run redis:4.0
+-stdin
+docker run -i kodecloud/simple-prompt-docker
+-it commands for interactive mode as well as open the terminal
+docker run -it kodecloud/simple-prompt-docker
+underlying host where docker is installed is called docker hoste or docker engine
+docker run -p 80:5000 kodecloud/simpl
+port mapping 
+docker volume mapping
+data persisting
+docker run -v /opt/datadir:/var/lib/mysql mysql
+create a directory called /opt/datadir and map that to /var/lib/mysql
+this way docker mount the external directory toa folder inside the docker container.Now all the data will now stored in the external volume at /opt/data 
+
+details od docker conntainer
+docker inspect blisful_hopper
+container logs
+docker logs blisful_hopper
+
+docker attach container_id
+docker run timer
+docker run -d timer
+
+
+layered architecture
+docker build Dockerfile -t mohim/my-app
+
